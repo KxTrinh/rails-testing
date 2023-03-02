@@ -1,2 +1,10 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<h1>Awesome Products</h1>
+<% @products.each do |product| %>
+  <div class="card-product">
+    <img src="https://i.ebayimg.com/images/g/zMUAAOSwVOlfAYzp/s-l1600.jpg">
+    <div class="card-product-infos">
+      <h2>Tower of god figurines</h2>
+      <p>Catch them all !</p>
+    </div>
+  </div>
+<% end %>
