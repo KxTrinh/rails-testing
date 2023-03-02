@@ -22,5 +22,5 @@ class ProductsTest < ApplicationSystemTestCase
 
     assert_text "Change your life: Learn to code"
   end
-  
+
 end
