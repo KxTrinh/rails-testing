@@ -2,9 +2,9 @@
 <% @products.each do |product| %>
   <div class="card-product">
     <img src="https://i.ebayimg.com/images/g/zMUAAOSwVOlfAYzp/s-l1600.jpg">
-    <div class="card-product-infos">
-      <h2>Tower of god figurines</h2>
-      <p>Catch them all !</p>
+    <div class='card-product-infos'>
+      <h2><%= product.title %></h2>
+      <p><%= product.tagline %></p>
     </div>
   </div>
 <% end %>
